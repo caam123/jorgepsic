@@ -19,6 +19,7 @@ body{
 
 .container{
     background-color:#e79191;
+    position:relative;
 }
 
 .header{
@@ -40,29 +41,33 @@ body{
 .nombre{
     color: var(--azul);
     background-color: var(--gris);
-    padding:25px;
+    padding:35px 30px;
 }
 
 .info{
     color:white;
     font-weight: 200;
     background-color:var(--azul);
-    padding:25px;
+    padding:35px 30px;
 }
-.info hr{
-    border:1px solid white;
+hr{
+    border:0.5px solid white;
+    margin: 0.3rem 0 1rem 0;
 }
+
 
 .info h1{
     text-transform: uppercase;
     font-size:1.3em;
-    padding: 1em 0 0 0;
+    padding: 0 0 0rem 0;
+    margin:4rem 0 0 0;
     font-weight:700;
+    letter-spacing:2px;
 }
 
 .info ul li{
     margin-left: 1em;
-    list-style-type:square;
+    list-style: none;
 }
 
 .jorgeName{
@@ -70,9 +75,28 @@ body{
     padding-left:0.4em;
     font-weight: 700;
     margin-bottom: 1em;
+    font-size: 1.2em;
 }
 
 #preci{
     font-size: 15px;
     list-style-type: none;
+}
+
+#main-logo{
+    height: 6.5em;
+    margin-bottom: 1rem;
+}
+
+i{
+    padding-right: 0.5em;
+}
+
+.imagen{
+    padding:0!important;
+    margin:0!important; 
+}
+
+.imagen img{
+    width:100%;
 }
