@@ -35,7 +35,7 @@ body{
 .logo{
     background-color: #fff;
     text-align:center;
-    padding:2em;
+    padding:1em;
 }
 
 .nombre{
@@ -48,11 +48,15 @@ body{
     color:white;
     font-weight: 200;
     background-color:var(--azul);
-    padding:35px 30px;
+    padding:20px 30px 0px 30px;
 }
 hr{
     border:0.5px solid white;
     margin: 0.3rem 0 1rem 0;
+}
+
+#unam{
+    margin-bottom: 0;
 }
 
 
@@ -64,6 +68,7 @@ hr{
     font-weight:700;
     letter-spacing:2px;
 }
+
 
 .info ul li{
     margin-left: 1em;
@@ -84,8 +89,11 @@ hr{
 }
 
 #main-logo{
-    height: 6.5em;
-    margin-bottom: 1rem;
+    height: 5.5em;
+    margin:0 auto;
+    max-width: 50%;
+    height: auto;
+
 }
 
 i{
