@@ -1,0 +1,78 @@
+:root{
+    --gris: #f1f1f3;
+    --azul: #005470;
+    --negro: #6D6E71;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: var(--negro);
+}
+
+.container{
+    background-color:#e79191;
+}
+
+.header{
+    background-color:var(--gris);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding:.75em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.logo{
+    background-color: #fff;
+    text-align:center;
+    padding:2em;
+}
+
+.nombre{
+    color: var(--azul);
+    background-color: var(--gris);
+    padding:25px;
+}
+
+.info{
+    color:white;
+    font-weight: 200;
+    background-color:var(--azul);
+    padding:25px;
+}
+.info hr{
+    border:1px solid white;
+}
+
+.info h1{
+    text-transform: uppercase;
+    font-size:1.3em;
+    padding: 1em 0 0 0;
+    font-weight:700;
+}
+
+.info ul li{
+    margin-left: 1em;
+    list-style-type:square;
+}
+
+.jorgeName{
+    border-left: 2px solid var(--azul);
+    padding-left:0.4em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+#preci{
+    font-size: 15px;
+    list-style-type: none;
+}
