@@ -108,3 +108,9 @@ i{
 .imagen img{
     width:100%;
 }
+
+@media screen and (max-width:768px){
+	#main-logo{
+		min-width: 80%;
+	}
+}
